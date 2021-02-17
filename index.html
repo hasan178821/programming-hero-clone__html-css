@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Hero</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Start -->
+    <header class="header-section">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/hero.PNG" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menubar">
+                        <li class="nav-item">
+                            <a class="nav-link text-icon active" aria-current="page" href="#">My Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-icon" href="#"><i class="far fa-bell"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-icon" href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img class="menu-img" src="images/myimg.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Navbar Section End -->
+
+    <!-- Slider Section Start -->
+    <main>
+        <section class="slider-section pt-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner container">
+                    <div class="carousel-item pt-4 active">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-md-7 slider-left">
+                                <h1>Complete Web Development Course with Jhankar Mahbub</h1>
+                                <p>একদম জিরো থেকে, কোন প্রকার পূর্ব অভিজ্ঞতা ছাড়াই একজন প্রফেশনাল ওয়েব ডেভেলপার হওয়ার জন্য যা যা লাগবে তার সবকিছুই সহজ করে গিলিয়ে খাওয়ানো হবে এই কোর্সে।</p>
+                                <button class="btn slider-btn">Enroll Now</button>
+                            </div>
+                            <div class="col-md-5 pt-4">
+                                <img src="images/slider-img1.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-4">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-md-7 slider-left">
+                                <h1>Build 10 professional projects while learning.</h1>
+                                <p>কোর্সের অংশ হিসেবে হাতে কলমে নতুন দশটা প্রজেক্ট (এসাইনমেন্ট) করবে তুমি। আমরা তোমার প্রজেক্ট এর ফিডব্যাক দিবো। মার্কস দিবো। যাতে প্রফেশনাল ওয়েবসাইট বানিয়েই চাকরির ইন্টারভিউতে যেতে পারো। 💪</p>
+                                <button class="btn slider-btn">Enroll Now</button>
+                            </div>
+                            <div class="col-md-5 pt-4">
+                                <img src="images/slider-img2.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-4">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-md-7 slider-left">
+                                <h1>Got stuck? We will always be there for you.</h1>
+                                <p>২৪ ঘন্টার মধ্যে কোর্স রিলেটেড সকল প্রশ্নের উত্তর দেয়ার জন্য চারজন প্রফেশনাল ওয়েব ডেভেলপার স্ট্যান্ডবাই থাকে (ছুটির দিন বাদে)। প্রয়োজনে গুগল মিট এ স্ক্রিনশেয়ার করে সমস্যা সমাধান করা হয়। 🥊</p>
+                                <button class="btn slider-btn">Enroll Now</button>
+                            </div>
+                            <div class="col-md-5 pt-4">
+                                <img src="images/slider-img3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-4">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-md-7 slider-left">
+                                <h1>We will ensure our graduates are world-class web developer.</h1>
+                                <p>প্রত্যেক ভিডিও শেষে প্রশ্ন থাকবে। মডিউল শেষে ফাইনাল কুইজ থাকবে। টেক এওয়ে এসাইনমেন্ট থাকবে। হোমওয়ার্ক প্রফেশনাল লেভেলের না হলে, ফিডব্যাক দেয়া হবে।</p>
+                                <button class="btn slider-btn">Enroll Now</button>
+                            </div>
+                            <div class="col-md-5 pt-4">
+                                <img src="images/slider-img4.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-4">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-md-7 slider-left">
+                                <h1>Start your dream today. Conquer the world.</h1>
+                                <p>সো, এক্ষুণি কোর্সে এনরোল করে ঝাঁপিয়ে পড়ো। তোমার লাইফের নতুন মিশন। হার্ডওয়ার্ক করবে তুমি। গাইডলাইন আর সাপোর্ট দিবো আমরা। পারলে ঠেকা!💪</p>
+                                <button class="btn slider-btn">Enroll Now</button>
+                            </div>
+                            <div class="col-md-5 pt-4">
+                                <img src="images/slider-img5.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </section>
+        <!-- Slider Section End -->
+
+        <!-- Alert Card Section Start -->
+        <section class="alert-card-section container">
+            <div class="card alert-card text-center">
+                <div>
+                    <h1 class="pt-3 fw-bolder">পরবর্তী ব্যাচের সময় সূচি</h1>
+                </div>
+                <div class="card-body">
+                    <div class="row alert-date pb-3">
+                        <div class="col-md-6">
+                            <h5><i class="far fa-calendar-alt p-2"></i>রেজিস্ট্রেশন শুরু: জুন ১০, ২০২১ (বৃহস্পতিবার)</h5>
+                            <h5><i class="far fa-bookmark p-2"></i>রেজিস্ট্রেশন শেষ: জুন ২৪, ২০২১ (বৃহস্পতিবার)</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <h5><i class="far fa-bell p-2"></i>ব্যাচের ওরিয়েন্টশন: জুন ২৮, ২০২১ (সোমবার)</h5>
+                            <h5><i class="fas fa-tv p-2"></i>ক্লাস শুরু: জুলাই ১, ২০২১ (বৃহস্পতিবার)</h5>
+                        </div>
+                    </div>
+                    <div class="enroll-info-div d-flex align-items-center">
+                        <h5>তুমি ৪র্থ ব্যাচে এনরোল করতে আগ্রহি হলে, ঝাঁপিয়ে পড়ো</h5>
+                        <div class="alert-btn">
+                            <button href="#" class="btn slider-btn">Go somewhere</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Alert Card Section End -->
+
+        <!-- About  Course Section Start -->
+        <section class="about-course-section">
+            <nav>
+                <div class="nav about-course-tab container nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                        <i class="far fa-star"></i>
+                        <h6>এই কোর্সের বিশেষত্ব কি?</h6>
+                    </button>
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                        <i class="fas fa-pen-square"></i>
+                        <h6>এই কোর্স কিভাবে চলবে?</h6>
+                    </button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row pt-5">
+                        <div class="col-md-6">
+                            <div class="row d-flex tab-info">
+                                <div class="col-md-4 tab-icon justify-content-center align-items-center">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <div class="col-md-8">
+                                    <h6>এইটা কমপ্লিট ওয়েব ডেভেলপমেন্ট এর কোর্স:</h6>
+                                    <p>শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার সবকিছুই ধরে ধরে শিখানো হয়েছে এই কোর্সে। সো, এই কোর্স ভালোভাবে ফিনিশ করলে ওয়েব ডেভেলপমেন্ট সম্পর্কে আর কোথাও কোন কোর্স না করেই ইন্টার্ন বাচাকরির
+                                        চেষ্টা শুরু করে দিতে পারবে।</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="row d-flex tab-info">
+                                <div class="col-md-4 tab-icon justify-content-center align-items-center">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <div class="col-md-8">
+                                    <h6>আনলিমিটেড সাপোর্ট:</h6>
+                                    <p>শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার সবকিছুই ধরে ধরে শিখানো হয়েছে এই কোর্সে। সো, এই কোর্স ভালোভাবে ফিনিশ করলে ওয়েব ডেভেলপমেন্ট সম্পর্কে আর কোথাও কোন কোর্স না করেই ইন্টার্ন বাচাকরির
+                                        চেষ্টা শুরু করে দিতে পারবে।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-md-6">
+                            <div class="row d-flex tab-info">
+                                <div class="col-md-4 tab-icon justify-content-center align-items-center">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <div class="col-md-8">
+                                    <h6>স্পেশাল ইন্টারভিউ প্রিপারেশন গ্রূপ:</h6>
+                                    <p>শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার সবকিছুই ধরে ধরে শিখানো হয়েছে এই কোর্সে। সো, এই কোর্স ভালোভাবে ফিনিশ করলে ওয়েব ডেভেলপমেন্ট সম্পর্কে আর কোথাও কোন কোর্স না করেই ইন্টার্ন বাচাকরির
+                                        চেষ্টা শুরু করে দিতে পারবে।</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="row d-flex tab-info">
+                                <div class="col-md-4 tab-icon justify-content-center align-items-center">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <div class="col-md-8">
+                                    <h6>চাকরির জন্য সিভি পাঠানো:</h6>
+                                    <p>শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার সবকিছুই ধরে ধরে শিখানো হয়েছে এই কোর্সে। সো, এই কোর্স ভালোভাবে ফিনিশ করলে ওয়েব ডেভেলপমেন্ট সম্পর্কে আর কোথাও কোন কোর্স না করেই ইন্টার্ন বাচাকরির
+                                        চেষ্টা শুরু করে দিতে পারবে।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="row pt-5">
+                        <div class="col-md-6">
+                            <div class="row d-flex tab-info">
+                                <div class="col-md-4 tab-icon-txt justify-content-center align-items-center">
+                                    <h1>১</h1>
+                                </div>
+                                <div class="col-md-8">
+                                    <p>শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার সবকিছুই ধরে ধরে শিখানো হয়েছে এই কোর্সে। সো, এই কোর্স ভালোভাবে ফিনিশ করলে ওয়েব ডেভেলপমেন্ট সম্পর্কে আর কোথাও কোন কোর্স না করেই ইন্টার্ন বাচাকরির
+                                        চেষ্টা শুরু করে দিতে পারবে।</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="row d-flex tab-info">
+                                <div class="col-md-4 tab-icon-txt justify-content-center align-items-center">
+                                    <h1>২</h1>
+                                </div>
+                                <div class="col-md-8">
+                                    <p>শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার সবকিছুই ধরে ধরে শিখানো হয়েছে এই কোর্সে। সো, এই কোর্স ভালোভাবে ফিনিশ করলে ওয়েব ডেভেলপমেন্ট সম্পর্কে আর কোথাও কোন কোর্স না করেই ইন্টার্ন বাচাকরির
+                                        চেষ্টা শুরু করে দিতে পারবে।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-md-6">
+                            <div class="row d-flex tab-info">
+                                <div class="col-md-4 tab-icon-txt justify-content-center align-items-center">
+                                    <h1>৩</h1>
+                                </div>
+                                <div class="col-md-8">
+                                    <p>শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার সবকিছুই ধরে ধরে শিখানো হয়েছে এই কোর্সে। সো, এই কোর্স ভালোভাবে ফিনিশ করলে ওয়েব ডেভেলপমেন্ট সম্পর্কে আর কোথাও কোন কোর্স না করেই ইন্টার্ন বাচাকরির
+                                        চেষ্টা শুরু করে দিতে পারবে।</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="row d-flex tab-info">
+                                <div class="col-md-4 tab-icon-txt justify-content-center align-items-center">
+                                    <h1>৪</h1>
+                                </div>
+                                <div class="col-md-8">
+                                    <p>শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার সবকিছুই ধরে ধরে শিখানো হয়েছে এই কোর্সে। সো, এই কোর্স ভালোভাবে ফিনিশ করলে ওয়েব ডেভেলপমেন্ট সম্পর্কে আর কোথাও কোন কোর্স না করেই ইন্টার্ন বাচাকরির
+                                        চেষ্টা শুরু করে দিতে পারবে।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About  Course Section End -->
+
+        <!-- footer section start -->
+        <footer class="text-center">
+            <h2>Hasan</h2>
+            <p>&copy;2021|All Right Reserved</p>
+        </footer>
+        <!-- footer section End -->
+
+    </main>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- Manual Javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-section {
+    background-color: #6047ec;
+}
+
+.menu-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menubar i {
+    font-size: 26px;
+}
+
+.text-icon {
+    margin-top: 8px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+
+/* Slider Section Start */
+
+.slider-section {
+    height: 100vh;
+    width: 100%;
+    background-color: #622bee;
+}
+
+.slider-left h1 {
+    color: #dddcdc;
+    font-weight: 700;
+    margin-bottom: 6%;
+    line-height: 50px;
+}
+
+.slider-left p {
+    color: #dddcdc;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.slider-btn {
+    padding: 15px 60px;
+    background-color: #8c7dbf;
+    border-radius: 50px;
+    color: #fff;
+}
+
+
+/* next batch alert */
+
+.alert-card {
+    background-color: #fff;
+    padding: 40px 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 60px gray;
+    margin-bottom: 20px;
+    margin-top: -80px;
+}
+
+.enroll-info-div {
+    background-color: #6439f3;
+    margin: 0 50px;
+    padding: 10px 0;
+    border-radius: 40px;
+}
+
+.enroll-info-div h5 {
+    padding: 0px 50px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.alert-btn {
+    padding-left: 13%;
+}
+
+.alert-date h5 {
+    color: #111;
+    font-weight: 600;
+}
+
+.alert-date i {
+    background-color: #6439f3;
+    border-radius: 5px;
+    width: 40px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+
+/* About Course Section Start */
+
+.about-course-section {}
+
+.about-course-tab {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 5px 5px 30px lightgray;
+    margin-top: 100px;
+}
+
+.about-course-tab i {
+    font-size: 50px;
+}
+
+
+/* Tab Section Start */
+
+.tab-content {
+    padding: 0 80px;
+    margin-bottom: 30px;
+}
+
+.tab-info {
+    box-shadow: 5px 5px 30px lightgray;
+    margin-bottom: 50px;
+    padding: 30px 10px;
+    border-radius: 7px;
+    margin: 0 10px;
+}
+
+.tab-icon {
+    width: 120px;
+    height: 120px;
+    background-color: #29b7e7;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.tab-icon-txt h1 {
+    font-size: 100px;
+    color: gray;
+    margin-left: 40px;
+}
+
+.tab-icon i {
+    position: absolute;
+    font-size: 45px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.tab-info p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.tab-info h6 {
+    font-weight: 600;
+}
+
+
+/* Tab Section End */
+
+
+/* footer section start */
+
+footer {
+    background-color: #252f54;
+}
+
+footer h2 {
+    color: #6439f3;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+footer p {
+    color: #fff;
+}
